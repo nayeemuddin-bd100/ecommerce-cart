@@ -204,6 +204,56 @@ nav {
   fill: #80a9c5;
 }
 
+.main-section .main-section__bottom--hr hr {
+  margin-top: 30px;
+  border-color: transparent;
+  border-width: 0.25px;
+  background: #617d98;
+}
+
+.main-section .main-section__bottom--total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+  padding: 0 10px;
+  color: #102a42;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.main-section .main-section__bottom--total h2 {
+  font-weight: 500;
+}
+
+.main-section .clearAllBtn {
+  text-align: center;
+}
+
+.main-section .clearAllBtn button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #841212;
+  color: #841212;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-section .clearAllBtn button:hover {
+  background-color: #e77373;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 70vw;

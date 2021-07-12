@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { GlobalContext } from '../../context/GlobalState';
 
 function Header() {
+  const item = useContext(GlobalContext)
+  console.log(item)
+
     return (
       <nav>
         <div className="container">

@@ -155,6 +155,50 @@ nav {
       }
     }
   }
+
+  .main-section__bottom {
+    &--hr hr {
+      margin-top: 30px;
+      border-color: transparent;
+      border-width: 0.25px;
+      background: #617d98;
+    }
+    &--total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -15px;
+      padding: 0 10px;
+      color: #102a42;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      h2 {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .clearAllBtn {
+    // background-color: red;
+    text-align: center;
+
+    button {
+      padding: 0.5rem 1rem;
+      border: 1px solid rgb(132, 18, 18);
+      color: rgb(132, 18, 18);
+      font-size: 14px;
+      letter-spacing: 4px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 8px;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: rgb(231, 115, 115);
+      }
+    }
+  }
 }
 
 // End Main Section
