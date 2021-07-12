@@ -75,6 +75,13 @@ nav {
     align-items: center;
     margin: 40px auto;
   }
+  &__emptyProduct {
+    text-align: center;
+    color: #2680c0;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
   /* Cart section */
   .cart-section {
     display: flex;
@@ -156,6 +163,7 @@ nav {
     }
   }
 
+  /* Boot section */
   .main-section__bottom {
     &--hr hr {
       margin-top: 30px;
