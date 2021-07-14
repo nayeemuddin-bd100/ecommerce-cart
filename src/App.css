@@ -72,7 +72,7 @@ nav {
   position: absolute;
   background-color: #f1f5f8;
   width: 100vw;
-  height: 100vh;
+  padding-bottom: 5rem;
   /* Cart section */
   /* Boot section */
 }
